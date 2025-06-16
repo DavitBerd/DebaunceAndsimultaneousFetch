@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+#coordinates {
+  margin-bottom: 20px;
+}
+.columns-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.user-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.user-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+h2 {
+  margin-top: 0;
+}
